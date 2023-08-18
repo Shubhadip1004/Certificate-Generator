@@ -2,12 +2,8 @@
 This is CERTIFICATE GENERATOR
 
 Authors:~  
-   1. Shubhadip Mahata      
-   2. Santanu Mishra
-   3. Dwitipriya Das
-   4. Dipty Kumari
-   5. Amisha Kumari
-   6. Kashish Singh
+Shubhadip Mahata      
+Github : Shubhadip1004
 """
 import os
 import cv2
