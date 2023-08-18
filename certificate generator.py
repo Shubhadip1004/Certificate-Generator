@@ -33,7 +33,7 @@ def generate_certificates():
       # Unique ID
       cv2.putText(certificate_template_image, uid, (80,60), cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 5, cv2.LINE_AA)
       cv2.imwrite("generated-certificates/{}.jpg".format(name.strip()), certificate_template_image)
-      # Commity
+      # Community
       cv2.putText(certificate_template_image, "Participant", (1500,1520), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 0), 3, cv2.LINE_AA)
       cv2.imwrite("generated-certificates/{}.jpg".format(name.strip()), certificate_template_image)
       
