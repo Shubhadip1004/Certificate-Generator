@@ -31,8 +31,8 @@ def generate_certificates():
       cv2.putText(certificate_template_image, name.strip(), (1390,1275), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 0), 3, cv2.LINE_AA)
       cv2.imwrite("generated-certificates/{}.jpg".format(name.strip()), certificate_template_image)
       # Unique ID
-      # cv2.putText(certificate_template_image, uid, (80,60), cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 5, cv2.LINE_AA)
-      # cv2.imwrite("generated-certificates/{}.jpg".format(name.strip()), certificate_template_image)
+      cv2.putText(certificate_template_image, uid, (80,60), cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 5, cv2.LINE_AA)
+      cv2.imwrite("generated-certificates/{}.jpg".format(name.strip()), certificate_template_image)
       # Commity
       cv2.putText(certificate_template_image, "Participant", (1500,1520), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 0), 3, cv2.LINE_AA)
       cv2.imwrite("generated-certificates/{}.jpg".format(name.strip()), certificate_template_image)
